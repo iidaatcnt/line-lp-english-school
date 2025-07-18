@@ -11,7 +11,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Contact Form Simulation
 document.addEventListener('DOMContentLoaded', function () {
-    const contactForm = document.querySelector('#contact form');
+    const contactForm = document.querySelector('#contactForm');
     const confirmationModal = new bootstrap.Modal(document.getElementById('confirmationModal'));
     const thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
 
